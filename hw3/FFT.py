@@ -9,17 +9,17 @@ import time
 
 Fs = 100.0;  # sampling rate
 
-Ts = 1.0/Fs; # sampling interval
+Ts = 10.0/Fs; # sampling interval
 
-t = np.arange(0,1,Ts) # time vector; create Fs samples between 0 and 1.0 sec.
+t = np.arange(0,10,Ts) # time vector; create Fs samples between 0 and 1.0 sec.
 
-x = np.arange(0,1,Ts) # signal vector; create Fs samples
+x = np.arange(0,10,Ts) # signal vector; create Fs samples
 
-y = np.arange(0,1,Ts) # signal vector; create Fs samples
+y = np.arange(0,10,Ts) # signal vector; create Fs samples
 
-z = np.arange(0,1,Ts) # signal vector; create Fs samples
+z = np.arange(0,10,Ts) # signal vector; create Fs samples
 
-tilt = np.arange(0,1,Ts) # signal vector; create Fs samples
+tilt = np.arange(0,10,Ts) # signal vector; create Fs samples
 
 
 serdev = '/dev/ttyACM0'
